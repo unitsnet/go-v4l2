@@ -18,7 +18,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-// +build linux,arm
+//go:build linux && arm64
+// +build linux,arm64
 
 package v4l2
 
